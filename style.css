@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.box-grid{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h5{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+h4{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+h4:hover{
+    color: #4aff80;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: #4aff80;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4aff80;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+form{
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+}
+
+form h3{
+    text-align: center;
+    color: #4aff80;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    background-color: #4aff80;
+    color: #09cf45;
+    border-radius: 25px;
+    transition: 1s;
+    border-color: #4aff80;
+}
+
+form input[type=submit]:hover{
+    background-color: #f5f5f5;
+}
+
+header{
+    height: 150px;
+}
+
+#menu_fixo{
+    background-color: #000000;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+
+#menu_fixo1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.banner{
+    margin-top: 80px;
+}
+
+
+
+#c1{
+    padding: 50px;
+    width: 210px;
+}
+#c2{
+    width: 210px;
+}
+#c3{
+    width: 210px;
+}
+
+#c4{
+    width: 210px;
+}
+
+#contato{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+#clientes{
+
+    margin-top: 250px;
+
+}
+
+#rodape{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divzap{
+    margin-top: 100px;
+}
+
+#divinsta{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#quem_somos{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto-banner1{
+
+    margin-bottom: 80px;
+
+}
+
+#texto-banner2{
+    margin-top: 30px;
+}
+
+#texto-banner3{
+    margin-top: 100px;
+}
+
+#texto-banner4{
+
+    margin-right: 50px;
+
+}
+
+#textoquem{
+    margin-top: 300px;   
+}
